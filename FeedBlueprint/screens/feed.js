@@ -77,7 +77,7 @@ export default Feed = withStyles(_Feed, theme => ({
     backgroundColor: theme["color-basic-400"],
     paddingVertical: 8,
     paddingHorizontal: 10,
-    marginTop: 20
+    // marginTop: 20
   },
   card: {
     marginVertical: 8,

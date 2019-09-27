@@ -17,11 +17,12 @@ source blueprint-lib/init.sh
 ##
 
 BLUEPRINT="FeedBlueprint"
+NAME="Feed"
 
 EXT_POINT_1="@BlueprintInsertion"
 EXT_POINT_2="@BlueprintImportInsertion"
 EXT_POINT_3="@BlueprintNavigationInsertion"
-DATA_1="{ name: '${BLUEPRINT}', human_name: '${BLUEPRINT}', access_route: '${BLUEPRINT}'},"
+DATA_1="{ name: '${BLUEPRINT}', human_name: '${NAME}', access_route: '${BLUEPRINT}'},"
 DATA_2="import { ${BLUEPRINT}Navigator } from '..\/features\/${BLUEPRINT}\/navigator';"
 DATA_3="${BLUEPRINT}: { screen: ${BLUEPRINT}Navigator },"
 
